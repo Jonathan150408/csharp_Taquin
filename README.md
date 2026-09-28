@@ -3,23 +3,6 @@
 > This repo contains the code of the famous game called _Taquin_. The goal of the game is to reorder the pieces in the grid using the empty square. You are allowed to "move" the empty square and exchange it with a number in the grid like this :
 > <br>
 
-<style>
-    table {
-        border-collapse: separate;
-        border-spacing: 0;
-    }
-    td {
-        /* couleur neutre par défaut pour éviter une bordure blanche qui écrase */
-        border: 1px solid #ccc;
-        padding: 4px;
-    }
-    .red {
-        border: 1px solid red !important;
-        /* fallback : forcer visuellement la bordure supérieure si nécessaire */
-        box-shadow: 2px -1px red;
-    }
-</style>
-
 ## Before
 
 <table>
